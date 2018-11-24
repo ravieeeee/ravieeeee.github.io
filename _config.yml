@@ -5,7 +5,7 @@ title: JuYeong
 description: JuYeong Blog
 keywords: ''
 baseurl: ''
-url: https://ravieeeee.github.io/blog
+url: https://ravieeeee.github.io
 # url: http://127.0.0.1:4000
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
