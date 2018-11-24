@@ -24,9 +24,9 @@ author:  # change following line to your infomation.
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-reactjs
-    - name: fa-vuejs
+    - name: icon-java
   skill_icon2:
-    - name: icon-android
+    - name: fa-android
     - name: icon-aws
   desc: netflix만큼 개발이 좋아요
 
