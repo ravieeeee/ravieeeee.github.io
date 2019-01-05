@@ -1,3 +1,5 @@
+$primary-color: #ffeb16;
+
 .landing-page .carousel-caption {
   h1, p {
     text-transform: uppercase;
@@ -222,19 +224,19 @@ body.canvas-menu .nav-header {
   .nav > li {
     > a {
       padding: 15px 20px;
-      color: #676a6c;
+      color: #000000;
     }
     a {
       &:focus, &:hover {
         background: #fff;
-        color: #3385FF;
+        color: $primary-color;
       }
     }
     &.active {
       background: #fff;
       border: none;
       > a {
-        color: #3385FF;
+        color: $primary-color;
       }
     }
   }
@@ -1102,8 +1104,8 @@ label.error {
     position: relative;
     left: 50%;
     top: 50%;
-    margin-left: -12px;
-    margin-top: -9px;
+    margin-left: -1.1rem;
+    margin-top: -.81rem;
   }
 }
 
@@ -1149,7 +1151,6 @@ label.error {
 }
 
 .vertical-date small {
-  color: #3385FF;
   font-weight: 400;
 }
 
@@ -1436,7 +1437,7 @@ code {
 }
 
 .navy-bg {
-  background-color: #3385FF;
+  background-color: $primary-color;
   color: #fff;
 }
 
@@ -2360,11 +2361,9 @@ body {
 
 
 .landing-page {
-  span.navy {
-    color: #3385FF;
-  }
-  p.text-color {
-    color: #676a6c;
+  .c-about-author-name {
+    color: #000000;
+    margin-top: 2rem !important;
   }
   a.navy-link {
     color: #3385FF;
@@ -2374,7 +2373,7 @@ body {
     }
   }
   section p {
-    color: #aeaeae;
+    color: #000000;
     font-size: 13px;
   }
   h1 {
@@ -2453,17 +2452,13 @@ body {
       color: inherit;
     }
     .navbar-brand {
-      &:focus, &:hover {
-        background: #3385FF;
-        color: #fff;
-      }
-      color: #fff;
+      color: #000000;
       height: auto;
       display: block;
-      font-size: 14px;
-      background: #3385FF;
+      font-size: 1.4rem;
+      background: $primary-color;
       padding: 15px 20px;
-      border-radius: 0 0 5px 5px;
+      border-radius: 0 0 .8rem .8rem;
       font-weight: 700;
       transition: all .3s ease-in-out 0s;
     }
@@ -2499,9 +2494,10 @@ body {
     }
   }
   .navbar.navbar-scroll .navbar-brand {
+    background: transparent;
     margin-top: 15px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 1.5rem;
     padding: 10px;
     height: auto;
   }
@@ -2605,9 +2601,6 @@ body {
     margin-top: 40px;
   }
   .features {
-    small {
-      color: #3385FF;
-    }
     h2 {
       font-size: 18px;
       margin-top: 5px;
@@ -2634,16 +2627,13 @@ body {
     }
   }
   .social-icon a {
-    background: #3385FF;
-    color: #fff;
+    background: $primary-color;
+    color: #000000;
     padding: 4px 8px;
     height: 28px;
     width: 28px;
     display: block;
-    border-radius: 50px;
-    &:hover {
-      background: #3385FF;
-    }
+    border-radius: 2rem;
   }
   .img-small {
     height: 88px;
@@ -2654,10 +2644,7 @@ body {
     font-size: 14px;
   }
   .testimonials {
-    padding-top: 80px;
-    padding-bottom: 90px;
-    background-color: #3385FF;
-    background-image: url(../assets/img/landing/avatar_all.png);
+    background-color: #fff;
   }
   .contact {
     background-image: url(../assets/img/landing/word_map.png);
