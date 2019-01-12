@@ -500,9 +500,7 @@ button.dim {
 }
 
 .btn-default {
-  color: inherit;
-  background: #fff;
-  border: 1px solid #e7eaec;
+  border: .1rem solid #000000;
 }
 
 .btn-link {
@@ -2385,7 +2383,7 @@ body {
     width: 60px;
     height: 1px;
     margin: 60px auto 0;
-    border-bottom: 2px solid #3385FF;
+    border-bottom: 2px solid $primary-color;
   }
   .navbar-wrapper {
     position: fixed;
@@ -2644,7 +2642,7 @@ body {
     font-size: 14px;
   }
   .testimonials {
-    background-color: #fff;
+    background-color: #f4f4f4;
   }
   .contact {
     background-image: url(../assets/img/landing/word_map.png);

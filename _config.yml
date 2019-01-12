@@ -1,26 +1,20 @@
-# Welcome to Jekyll!
-
-# Website settings
 title: JuYeong
 description: JuYeong Blog
 keywords: ''
 baseurl: ''
 url: https://ravieeeee.github.io
-# url: http://127.0.0.1:4000
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: JuYeong  # Be used at blog posts' author.
+author:
+  name: JuYeong
   first_name: JuYeong  # Be used at index page about me section.
   last_name: Pyeon  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: ravieeeee  # Leave blank if you don't have now
-  # linkedin_id: '' # Leave blank if you don't have now
-  facebook_username: juyeongpyeon  # Leave blank if you don't have now
-  # twitter_username: ''  # Leave blank if you don't have now
-  email: pyeonjy97@gmail.com  # Leave blank if you don't have now
-  # cv: ''  # An online CV can be printed as PDF, leave blank if you don't have now
+  avatar: /static/assets/img/landing/avatar.jpg
+  github_username: ravieeeee
+  linkedin_id: '주영-편-175725170'
+  facebook_username: juyeongpyeon
+  email: pyeonjy97@gmail.com
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-reactjs
@@ -30,22 +24,10 @@ author:  # change following line to your infomation.
     - name: icon-aws
   desc: netflix만큼 개발이 좋아요
 
-# comment
-# disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  # name: jalpc
-
 # analytics
 ## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+ga:
   id: UA-112256802-2
-
-## google optimize
-go:
-  # id:
-
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
 
 ## donation
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
