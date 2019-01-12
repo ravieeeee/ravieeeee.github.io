@@ -269,6 +269,12 @@ body.canvas-menu .nav-header {
   }
 }
 
+.wow {
+  > span {
+    color: #000000;
+  }
+}
+
 .btn-primary {
   &.active, &:active {
     background-image: none;
@@ -2436,7 +2442,7 @@ body {
       }
       li > a {
         &:focus, &:hover {
-          color: #3385FF;
+          color: $primary-color;
           background: inherit;
         }
       }
