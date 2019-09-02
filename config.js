@@ -3,12 +3,12 @@
 module.exports = {
   url: 'https://ravieeeee.github.io',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'JuYeong',
+  subtitle: ':)',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: '',
+  googleAnalyticsId: 'UA-112256802-2',
   useKatex: false,
   menu: [
     {
@@ -21,18 +21,18 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'JuYeong',
+    photo: '/photo.png',
+    bio: ':)',
     contacts: {
-      email: '',
-      facebook: '#',
+      email: 'pyeonjy97@gmail.com',
+      facebook: 'juyeongpyeon',
       telegram: '',
       twitter: '',
-      github: '#',
+      github: 'ravieeeee',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
+      linkedin: '주영-편-175725170/',
       instagram: '',
       line: '',
       gitlab: '',
