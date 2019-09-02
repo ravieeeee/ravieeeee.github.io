@@ -6,6 +6,7 @@ const postCssPlugins = require('./postcss-config.js')
 module.exports = {
   pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
+    siteUrl: siteConfig.url,
     url: siteConfig.url,
     title: siteConfig.title,
     subtitle: siteConfig.subtitle,
@@ -203,5 +204,6 @@ module.exports = {
     },
     'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs',
+    'gatsby-plugin-robots-txt'
   ]
 }
