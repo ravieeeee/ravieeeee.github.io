@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://ravieeeee.github.io/sitemap.xml
+Host: https://ravieeeee.github.io
