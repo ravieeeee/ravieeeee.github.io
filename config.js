@@ -6,7 +6,7 @@ module.exports = {
   title: 'JuYeong',
   subtitle: ':)',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'juyeong',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-112256802-2',
   useKatex: false,
