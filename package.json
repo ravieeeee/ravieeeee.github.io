@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
-    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master -r https://github.com/ravieeeee/ravieeeee.github.io",
+    "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master -r https://github.com/ravieeeee/ravieeeee.github.io -m \"ci skip\"",
     "clean": "rimraf .cache public",
     "flow": "flow",
     "lint:js": "eslint --fix --cache --ext .js,.jsx .",
@@ -34,7 +34,6 @@
     "gatsby-plugin-netlify-cms": "^4.1.11",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-optimize-svgs": "^1.0.3",
-    "gatsby-plugin-react-helmet": "^3.1.5",
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sass": "^2.1.12",
     "gatsby-plugin-sharp": "^2.2.18",
