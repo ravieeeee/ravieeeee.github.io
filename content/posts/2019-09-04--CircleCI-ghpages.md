@@ -12,7 +12,7 @@ description: "gh-pages의 기본 브랜치에서 CircleCI 빌드를 skip하자."
 socialImage: "/media/190904-circleci-1.png"
 ---
 
-(gatsby-starter-lumen)[https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/] 템플릿에서 시작해서 CircleCI까지 붙이는 것은 (gatsby 정적블로그 생성하기 - 자동deploy, CircleCI연동)[https://kujyp.github.io/posts/2019-02-24---gatsby-정적블로그-생성하기---자동deploy,-CircleCI연동/] 등 자료를 참고해서 만들 수 있다.
+[gatsby-starter-lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) 템플릿에서 시작해서 CircleCI까지 붙이는 것은 [gatsby 정적블로그 생성하기 - 자동deploy, CircleCI연동](https://kujyp.github.io/posts/2019-02-24---gatsby-정적블로그-생성하기---자동deploy,-CircleCI연동/) 등 자료를 참고해서 만들 수 있다.
 
 다만, [gh-pages](https://github.com/tschaub/gh-pages)의 기본 브랜치인 `gh-pages` 혹은 위의 튜토리얼을 따라했다면 `master` 브랜치에 프로덕션으로 나갈 파일들이 푸시되기 때문에 CircleCI에 의해 빌드가 일어나게 된다.
 
@@ -27,8 +27,8 @@ socialImage: "/media/190904-circleci-1.png"
 편리하게도 `gh-pages` 에서 커밋 메세지를 커스텀할 수 있는 옵션을 준다. 따라서 `package.json` 파일 내 deploy script를 아래와 같이 변경하자.
 
 ```diff
-- yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master -r https://github.com/ravieeeee/ravieeeee.github.io
-+ yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master -r https://github.com/ravieeeee/ravieeeee.github.io -m '[ci skip]'
+- yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master -r <repo 주소>
++ yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master -r <repo 주소> -m '[ci skip]'
 ```
 
 해결되었다!
