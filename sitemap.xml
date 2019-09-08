@@ -5,12 +5,13 @@
 <url> <loc>https://ravieeeee.github.io/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/posts/boj-17144/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/posts/leetcode-15/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ravieeeee.github.io/posts/leetcode-16/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/posts/programmers-후보키/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ravieeeee.github.io/posts/programmers-오픈채팅방/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ravieeeee.github.io/posts/circleci-ghpages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ravieeeee.github.io/posts/leetcode-16/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/posts/leetcode-24/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ravieeeee.github.io/posts/programmers-오픈채팅방/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ravieeeee.github.io/posts/programmers-무지의먹방라이브/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/posts/leetcode-42/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ravieeeee.github.io/posts/circleci-ghpages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/tag/ci-cd</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/tag/circle-ci</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/tag/kakao</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -20,4 +21,5 @@
 <url> <loc>https://ravieeeee.github.io/category/develop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ravieeeee.github.io/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ravieeeee.github.io/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
