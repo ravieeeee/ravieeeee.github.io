@@ -67,7 +67,7 @@ int trap(vector<int>& height) {
 using namespace std;
 
 int trap(vector<int>& height) {
-	if (height == null) return 0;
+  if (height == null) return 0;
 
   int ans = 0;
   int size = height.size();
