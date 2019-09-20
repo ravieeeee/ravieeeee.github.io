@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-124/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "Given a non-empty binary tree, find the maximum path sum."
 ---
 

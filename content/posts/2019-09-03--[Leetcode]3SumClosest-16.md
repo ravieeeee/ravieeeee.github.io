@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-16/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target."
 ---
 

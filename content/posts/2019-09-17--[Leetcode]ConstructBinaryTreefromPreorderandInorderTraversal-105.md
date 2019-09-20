@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-105/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "Given preorder and inorder traversal of a tree, construct the binary tree."
 ---
 

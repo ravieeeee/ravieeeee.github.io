@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-42/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "compute how much water it is able to trap after raining."
 ---
 

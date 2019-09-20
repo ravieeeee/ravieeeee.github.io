@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-62/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "How many possible unique paths are there?"
 ---
 

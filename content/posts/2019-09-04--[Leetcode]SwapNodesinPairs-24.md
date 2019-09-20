@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-24/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "Given a linked list, swap every two adjacent nodes and return its head."
 ---
 

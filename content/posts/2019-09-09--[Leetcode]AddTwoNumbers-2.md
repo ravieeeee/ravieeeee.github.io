@@ -5,6 +5,8 @@ template: "post"
 draft: false
 slug: "/posts/leetcode-2/"
 category: "Algorithm"
+tags:
+  - "Leetcode"
 description: "Add the two numbers and return it as a linked list."
 ---
 
