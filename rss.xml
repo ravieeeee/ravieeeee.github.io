@@ -1,4 +1,299 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JuYeong]]></title><description><![CDATA[:)]]></description><link>https://ravieeeee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 20 Sep 2019 16:05:37 GMT</lastBuildDate><item><title><![CDATA[[Leetcode] 2 Keys Keyboard]]></title><description><![CDATA[You have to get exactly n 'A' on the notepad by performing the minimum number of steps permitted.]]></description><link>https://ravieeeee.github.io/posts/leetcode-650/</link><guid isPermaLink="false">https://ravieeeee.github.io/posts/leetcode-650/</guid><pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JuYeong]]></title><description><![CDATA[:)]]></description><link>https://ravieeeee.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 22 Sep 2019 15:52:51 GMT</lastBuildDate><item><title><![CDATA[[BOJ 9996] 한국이 그리울 땐 서버에 접속하지]]></title><description><![CDATA[패턴과 파일 이름이 모두 주어졌을 때, 각각의 파일 이름이 패턴과 일치하는지 아닌지를 구하는 프로그램을 작성하시오.]]></description><link>https://ravieeeee.github.io/posts/boj-9996/</link><guid isPermaLink="false">https://ravieeeee.github.io/posts/boj-9996/</guid><pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
+&lt;p&gt;선영이는 이번 학기에 오스트레일리아로 교환 학생을 가게 되었다. &lt;/p&gt;
+&lt;p&gt;호주에 도착하고 처음 며칠은 한국 생각을 잊으면서 즐겁게 지냈다. 몇 주가 지나니 한국이 그리워지기 시작했다. &lt;/p&gt;
+&lt;p&gt;선영이는 한국에 두고온 서버에 접속해서 디렉토리 안에 들어있는 파일 이름을 보면서 그리움을 잊기로 했다. 매일 밤, 파일 이름을 보면서 파일 하나하나에 얽힌 사연을 기억하면서 한국을 생각하고 있었다.&lt;/p&gt;
+&lt;p&gt;어느 날이었다. 한국에 있는 서버가 망가졌고, 그 결과 특정 패턴과 일치하는 파일 이름을 적절히 출력하지 못하는 버그가 생겼다.&lt;/p&gt;
+&lt;p&gt;패턴은 알파벳 소문자 여러 개와 별표(*) 하나로 이루어진 문자열이다.&lt;/p&gt;
+&lt;p&gt;파일 이름이 패턴에 일치하려면, 패턴에 있는 별표를 알파벳 소문자로 이루어진 임의의 문자열로 변환해 파일 이름과 같게 만들 수 있어야 한다. 별표는 빈 문자열로 바꿀 수도 있다. 예를 들어, “abcd”, “ad”, “anestonestod”는 모두 패턴 “a*d”와 일치한다. 하지만, “bcd”는 일치하지 않는다.&lt;/p&gt;
+&lt;p&gt;패턴과 파일 이름이 모두 주어졌을 때, 각각의 파일 이름이 패턴과 일치하는지 아닌지를 구하는 프로그램을 작성하시오. &lt;a href=&quot;https://www.acmicpc.net/problem/9996&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;baekjoon&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;코드&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
+&lt;pre class=&quot;default-dark vscode-highlight&quot; data-language=&quot;c&quot;&gt;&lt;code class=&quot;vscode-highlight-code&quot;&gt;&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;regex&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;using namespace std;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; n;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  cin &amp;gt;&amp;gt; n;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  string pattern;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  cin &amp;gt;&amp;gt; pattern;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; idx = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;*&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  string s_before = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;substr&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, idx);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  string s_after = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pattern&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;substr&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(idx + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  string new_pattern = s_before + &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;[a-z]*&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; + s_after;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  regex &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;rgx&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(new_pattern);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (n--) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    string word;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    cin &amp;gt;&amp;gt; word;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    cout &amp;lt;&amp;lt; (&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;regex_match&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(word, rgx) ? &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;DA&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; : &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;NE&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;풀이&quot;&gt;&lt;a href=&quot;#%ED%92%80%EC%9D%B4&quot; aria-label=&quot;풀이 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;풀이&lt;/h1&gt;
+&lt;p&gt;정규식을 사용해서 판별할 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;참고했던 사이트&lt;/em&gt;&lt;br&gt;
+&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%A0%95%EA%B7%9C_%ED%91%9C%ED%98%84%EC%8B%9D&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;wikipedia&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://soooprmx.com/archives/7718&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;정규표현식의 개념과 기초 문법&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;https://regexper.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;regexper&lt;/a&gt;&lt;/p&gt;
+&lt;style class=&quot;vscode-highlight-styles&quot;&gt;:root {
+  --vscode-highlight-padding-v: 1rem;
+  --vscode-highlight-padding-h: 1.5rem;
+  --vscode-highlight-padding-top: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-right: var(--vscode-highlight-padding-h);
+  --vscode-highlight-padding-bottom: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-left: var(--vscode-highlight-padding-h);
+  --vscode-highlight-border-radius: 8px;
+
+  --vscode-highlight-line-highlighted-background-color: transparent;
+  --vscode-highlight-line-highlighted-border-width: 4px;
+  --vscode-highlight-line-highlighted-border-color: transparent;
+}
+
+.vscode-highlight {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 1rem;
+  padding-top: var(--vscode-highlight-padding-top);
+  padding-bottom: 1rem;
+  padding-bottom: var(--vscode-highlight-padding-bottom);
+  border-radius: 8px;
+  border-radius: var(--vscode-highlight-border-radius);
+  font-feature-settings: normal;
+}
+
+.vscode-highlight-code {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.vscode-highlight-line {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-left: var(--vscode-highlight-padding-left);
+  padding-right: 1.5rem;
+  padding-right: var(--vscode-highlight-padding-right);
+}
+
+.vscode-highlight-line-highlighted {
+  background-color: var(--vscode-highlight-line-highlighted-background-color);
+  box-shadow: inset var(--vscode-highlight-line-highlighted-border-width) 0 0 0 var(--vscode-highlight-line-highlighted-border-color);
+}
+.default-dark {
+background-color: #1E1E1E;
+color: #D4D4D4;
+}
+
+.default-dark .mtk1 { color: #D4D4D4; }
+.default-dark .mtk2 { color: #1E1E1E; }
+.default-dark .mtk3 { color: #6A9955; }
+.default-dark .mtk4 { color: #569CD6; }
+.default-dark .mtk5 { color: #D16969; }
+.default-dark .mtk6 { color: #D7BA7D; }
+.default-dark .mtk7 { color: #B5CEA8; }
+.default-dark .mtk8 { color: #CE9178; }
+.default-dark .mtk9 { color: #646695; }
+.default-dark .mtk10 { color: #4EC9B0; }
+.default-dark .mtk11 { color: #DCDCAA; }
+.default-dark .mtk12 { color: #9CDCFE; }
+.default-dark .mtk13 { color: #000080; }
+.default-dark .mtk14 { color: #F44747; }
+.default-dark .mtk15 { color: #C586C0; }
+.default-dark .mtk16 { color: #6796E6; }
+.default-dark .mtk17 { color: #808080; }
+.default-dark .mtki { font-style: italic; }
+.default-dark .mtkb { font-weight: bold; }
+.default-dark .mtku { text-decoration: underline; text-underline-position: under; }&lt;/style&gt;</content:encoded></item><item><title><![CDATA[[Leetcode] 01 Matrix]]></title><description><![CDATA[find the distance of the nearest 0 for each cell.]]></description><link>https://ravieeeee.github.io/posts/leetcode-542/</link><guid isPermaLink="false">https://ravieeeee.github.io/posts/leetcode-542/</guid><pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
+&lt;p&gt;Given a matrix consists of 0 and 1, find the distance of the nearest 0 for each cell.&lt;/p&gt;
+&lt;p&gt;The distance between two adjacent cells is 1. &lt;a href=&quot;https://leetcode.com/problems/01-matrix/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Leetcode&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;코드&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
+&lt;pre class=&quot;default-dark vscode-highlight&quot; data-language=&quot;c&quot;&gt;&lt;code class=&quot;vscode-highlight-code&quot;&gt;&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dir_x&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] = {&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, -&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;};&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dir_y&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] = {&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, -&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;};&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; row, col;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;bfs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(vector&amp;lt;vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt;&amp;amp; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, vector&amp;lt;vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt;&amp;amp; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  queue&amp;lt;pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt; q;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; row; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; j = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j &amp;lt; col; j++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] == &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;make_pair&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(i, j));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; node = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;front&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; new_x = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; + &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dir_x&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i], new_y = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; + &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dir_y&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i];&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; is_valid = new_x &amp;gt;= &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &amp;amp;&amp;amp; new_y &amp;gt;= &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &amp;amp;&amp;amp; new_x &amp;lt; row &amp;amp;&amp;amp; new_y &amp;lt; col;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (is_valid &amp;amp;&amp;amp; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[new_x][new_y] &amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[new_x][new_y] = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;make_pair&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(new_x, new_y));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;vector&amp;lt;vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;updateMatrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(vector&amp;lt;vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt;&amp;amp; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  row = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(), col = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  vector&amp;lt;vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(row, vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;(col));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; row; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; j = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j &amp;lt; col; j++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] == &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; ? &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; : INT_MAX;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;bfs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(matrix, result);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; result;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;풀이&quot;&gt;&lt;a href=&quot;#%ED%92%80%EC%9D%B4&quot; aria-label=&quot;풀이 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;풀이&lt;/h1&gt;
+&lt;p&gt;0에 대해서 상하좌우에 위치한 값들을 업데이트 하는 방식이다. 먼저, 0으로 인해 업데이트가 일어나니까 0을 일단 큐에 전부 넣는다. 상하좌우 접한 지점의 거리를 최소값으로 업데이트 해간다. 새로 업데이트 된 셀로 인해서 또다시 주위에 영향을 끼칠 수 있으므로 큐에 업데이트된 셀을 넣는다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;실패기 &amp;#x26; 해결 방안&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1인 점에 대해서 BFS -&gt; 시간 초과&lt;br&gt;
+각 1마다 BFS를 돌면서 가장 가까운 0을 만날때마다 위치값을 업데이트 하는 방식이다. 한번의 BFS로 한 위치값만 계산할 수 밖에 없어서 비효율적이다.&lt;/li&gt;
+&lt;li&gt;DP&lt;br&gt;
+&lt;code&gt;result[i][j] = min(result[i - 1][j], result[i + 1][j], result[i][j - 1], result[i][j + 1])&lt;/code&gt;이라 생각해서 구현했지만 이게 순서가 없다보니 재귀가 순환에 빠진다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;하지만 DP로 해결할 수 있는 방법이 있다.&lt;/p&gt;
+&lt;pre class=&quot;default-dark vscode-highlight&quot; data-language=&quot;c&quot;&gt;&lt;code class=&quot;vscode-highlight-code&quot;&gt;&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk3&quot;&gt;// left and top&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; rows; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; j = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j &amp;lt; cols; j++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] == &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (i &amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] = &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j], &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i - &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;][j] + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (j &amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] = &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j], &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j - &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk3&quot;&gt;// bottom and right&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = rows - &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;gt;= &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i--) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; j = cols - &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j &amp;gt;= &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j--) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (i &amp;lt; rows - &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] = &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j], &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;][j] + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (j &amp;lt; cols - &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j] = &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j], &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;dist&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i][j + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/984a9f70b554efb10b1ab2e9db1d6c6c/37f9e/leetcode-542.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 23.562412342215993%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAwklEQVQY03WQ3Q6CMAyFef8X8t5LiQEuRiQEJgoqP6LBsDHHOMJ0BmJs0rTdvjantTDaMLr6RF0PJlvWD9Yhyio0Lf/5M2ZBSqRhiMB10JyyBdj3vY6mKUnPWK03oMc3p5T6slM+RQuc4eATRM4WNxprIKYUnuchCIKFiqKq4ewoLuUVwzjAdV34vg9CCGzb1kMtdBz1qKxM9mBFrhuFENonhfOBXDyR5DVaLvSBDGdcr/zvXvPavHVS4c4kZL9k5uwL1sKDYzsA5w8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/984a9f70b554efb10b1ab2e9db1d6c6c/01472/leetcode-542.webp 240w,
+/static/984a9f70b554efb10b1ab2e9db1d6c6c/222bd/leetcode-542.webp 480w,
+/static/984a9f70b554efb10b1ab2e9db1d6c6c/620b9/leetcode-542.webp 960w,
+/static/984a9f70b554efb10b1ab2e9db1d6c6c/c1546/leetcode-542.webp 1426w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/984a9f70b554efb10b1ab2e9db1d6c6c/0783d/leetcode-542.png 240w,
+/static/984a9f70b554efb10b1ab2e9db1d6c6c/782f4/leetcode-542.png 480w,
+/static/984a9f70b554efb10b1ab2e9db1d6c6c/f570d/leetcode-542.png 960w,
+/static/984a9f70b554efb10b1ab2e9db1d6c6c/37f9e/leetcode-542.png 1426w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/984a9f70b554efb10b1ab2e9db1d6c6c/f570d/leetcode-542.png&quot;
+          alt=&quot;leetcode 542&quot;
+          title=&quot;leetcode 542&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;저 순서로 순회하게 된다면 각각 특정 점에서 왼쪽 위는 모두 최소 거리라고 보장할 수 있고, 마찬가지로 2번째 방향으로 순회하는 것 또한 특정 점에서 오른쪽 아래는 모두 최소 거리로 업데이트 되었다고 보장할 수 있다.&lt;/p&gt;
+&lt;style class=&quot;vscode-highlight-styles&quot;&gt;:root {
+  --vscode-highlight-padding-v: 1rem;
+  --vscode-highlight-padding-h: 1.5rem;
+  --vscode-highlight-padding-top: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-right: var(--vscode-highlight-padding-h);
+  --vscode-highlight-padding-bottom: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-left: var(--vscode-highlight-padding-h);
+  --vscode-highlight-border-radius: 8px;
+
+  --vscode-highlight-line-highlighted-background-color: transparent;
+  --vscode-highlight-line-highlighted-border-width: 4px;
+  --vscode-highlight-line-highlighted-border-color: transparent;
+}
+
+.vscode-highlight {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 1rem;
+  padding-top: var(--vscode-highlight-padding-top);
+  padding-bottom: 1rem;
+  padding-bottom: var(--vscode-highlight-padding-bottom);
+  border-radius: 8px;
+  border-radius: var(--vscode-highlight-border-radius);
+  font-feature-settings: normal;
+}
+
+.vscode-highlight-code {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.vscode-highlight-line {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-left: var(--vscode-highlight-padding-left);
+  padding-right: 1.5rem;
+  padding-right: var(--vscode-highlight-padding-right);
+}
+
+.vscode-highlight-line-highlighted {
+  background-color: var(--vscode-highlight-line-highlighted-background-color);
+  box-shadow: inset var(--vscode-highlight-line-highlighted-border-width) 0 0 0 var(--vscode-highlight-line-highlighted-border-color);
+}
+.default-dark {
+background-color: #1E1E1E;
+color: #D4D4D4;
+}
+
+.default-dark .mtk1 { color: #D4D4D4; }
+.default-dark .mtk2 { color: #1E1E1E; }
+.default-dark .mtk3 { color: #6A9955; }
+.default-dark .mtk4 { color: #569CD6; }
+.default-dark .mtk5 { color: #D16969; }
+.default-dark .mtk6 { color: #D7BA7D; }
+.default-dark .mtk7 { color: #B5CEA8; }
+.default-dark .mtk8 { color: #CE9178; }
+.default-dark .mtk9 { color: #646695; }
+.default-dark .mtk10 { color: #4EC9B0; }
+.default-dark .mtk11 { color: #DCDCAA; }
+.default-dark .mtk12 { color: #9CDCFE; }
+.default-dark .mtk13 { color: #000080; }
+.default-dark .mtk14 { color: #F44747; }
+.default-dark .mtk15 { color: #C586C0; }
+.default-dark .mtk16 { color: #6796E6; }
+.default-dark .mtk17 { color: #808080; }
+.default-dark .mtki { font-style: italic; }
+.default-dark .mtkb { font-weight: bold; }
+.default-dark .mtku { text-decoration: underline; text-underline-position: under; }&lt;/style&gt;</content:encoded></item><item><title><![CDATA[[Leetcode] 2 Keys Keyboard]]></title><description><![CDATA[You have to get exactly n 'A' on the notepad by performing the minimum number of steps permitted.]]></description><link>https://ravieeeee.github.io/posts/leetcode-650/</link><guid isPermaLink="false">https://ravieeeee.github.io/posts/leetcode-650/</guid><pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
 &lt;p&gt;Initially on a notepad only one character ‘A’ is present. You can perform two operations on this notepad for each step:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Copy All: You can copy all the characters present on the notepad (partial copy is not allowed).&lt;/li&gt;
@@ -38,6 +333,139 @@
 &lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; res;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;81 -&gt; &lt;code&gt;81 / 3 = 27&lt;/code&gt; -&gt; &lt;code&gt;27 / 3 = 9&lt;/code&gt; -&gt; &lt;code&gt;9 / 3 = 3&lt;/code&gt; -&gt; 3 이런 방식인 것 같다. &lt;a href=&quot;https://leetcode.com/problems/2-keys-keyboard/discuss/105908/Very-Simple-Java-Solution-With-Detail-Explanation&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;solution&lt;/a&gt;&lt;/p&gt;
+&lt;style class=&quot;vscode-highlight-styles&quot;&gt;:root {
+  --vscode-highlight-padding-v: 1rem;
+  --vscode-highlight-padding-h: 1.5rem;
+  --vscode-highlight-padding-top: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-right: var(--vscode-highlight-padding-h);
+  --vscode-highlight-padding-bottom: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-left: var(--vscode-highlight-padding-h);
+  --vscode-highlight-border-radius: 8px;
+
+  --vscode-highlight-line-highlighted-background-color: transparent;
+  --vscode-highlight-line-highlighted-border-width: 4px;
+  --vscode-highlight-line-highlighted-border-color: transparent;
+}
+
+.vscode-highlight {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 1rem;
+  padding-top: var(--vscode-highlight-padding-top);
+  padding-bottom: 1rem;
+  padding-bottom: var(--vscode-highlight-padding-bottom);
+  border-radius: 8px;
+  border-radius: var(--vscode-highlight-border-radius);
+  font-feature-settings: normal;
+}
+
+.vscode-highlight-code {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.vscode-highlight-line {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-left: var(--vscode-highlight-padding-left);
+  padding-right: 1.5rem;
+  padding-right: var(--vscode-highlight-padding-right);
+}
+
+.vscode-highlight-line-highlighted {
+  background-color: var(--vscode-highlight-line-highlighted-background-color);
+  box-shadow: inset var(--vscode-highlight-line-highlighted-border-width) 0 0 0 var(--vscode-highlight-line-highlighted-border-color);
+}
+.default-dark {
+background-color: #1E1E1E;
+color: #D4D4D4;
+}
+
+.default-dark .mtk1 { color: #D4D4D4; }
+.default-dark .mtk2 { color: #1E1E1E; }
+.default-dark .mtk3 { color: #6A9955; }
+.default-dark .mtk4 { color: #569CD6; }
+.default-dark .mtk5 { color: #D16969; }
+.default-dark .mtk6 { color: #D7BA7D; }
+.default-dark .mtk7 { color: #B5CEA8; }
+.default-dark .mtk8 { color: #CE9178; }
+.default-dark .mtk9 { color: #646695; }
+.default-dark .mtk10 { color: #4EC9B0; }
+.default-dark .mtk11 { color: #DCDCAA; }
+.default-dark .mtk12 { color: #9CDCFE; }
+.default-dark .mtk13 { color: #000080; }
+.default-dark .mtk14 { color: #F44747; }
+.default-dark .mtk15 { color: #C586C0; }
+.default-dark .mtk16 { color: #6796E6; }
+.default-dark .mtk17 { color: #808080; }
+.default-dark .mtki { font-style: italic; }
+.default-dark .mtkb { font-weight: bold; }
+.default-dark .mtku { text-decoration: underline; text-underline-position: under; }&lt;/style&gt;</content:encoded></item><item><title><![CDATA[[BOJ 7662] 이중 우선순위 큐]]></title><description><![CDATA[Q에 적용될 일련의 연산이 주어질 때 이를 처리한 후 최종적으로 Q에 저장된 데이터 중 최댓값과 최솟값을 출력하는 프로그램을 작성하라.]]></description><link>https://ravieeeee.github.io/posts/boj-7662/</link><guid isPermaLink="false">https://ravieeeee.github.io/posts/boj-7662/</guid><pubDate>Sat, 21 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
+&lt;p&gt;이중 우선순위 큐(dual priority queue)는 전형적인 우선순위 큐처럼 데이터를 삽입, 삭제할 수 있는 자료 구조이다. 전형적인 큐와의 차이점은 데이터를 삭제할 때 연산(operation) 명령에 따라 우선순위가 가장 높은 데이터 또는 가장 낮은 데이터 중 하나를 삭제하는 점이다. 이중 우선순위 큐를 위해선 두 가지 연산이 사용되는데, 하나는 데이터를 삽입하는 연산이고 다른 하나는 데이터를 삭제하는 연산이다. 데이터를 삭제하는 연산은 또 두 가지로 구분되는데 하나는 우선순위가 가장 높은 것을 삭제하기 위한 것이고 다른 하나는 우선순위가 가장 낮은 것을 삭제하기 위한 것이다. &lt;/p&gt;
+&lt;p&gt;정수만 저장하는 이중 우선순위 큐 Q가 있다고 가정하자. Q에 저장된 각 정수의 값 자체를 우선순위라고 간주하자. &lt;/p&gt;
+&lt;p&gt;Q에 적용될 일련의 연산이 주어질 때 이를 처리한 후 최종적으로 Q에 저장된 데이터 중 최댓값과 최솟값을 출력하는 프로그램을 작성하라. &lt;a href=&quot;https://www.acmicpc.net/problem/7662&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;baekjoon&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;코드&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
+&lt;pre class=&quot;default-dark vscode-highlight&quot; data-language=&quot;c&quot;&gt;&lt;code class=&quot;vscode-highlight-code&quot;&gt;&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;queue&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;limits.h&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;using namespace std;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; tc;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  cin &amp;gt;&amp;gt; tc;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (tc--) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; k;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    cin &amp;gt;&amp;gt; k;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1000000&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;// first: value, second: cmd index&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    priority_queue&amp;lt;pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt; pq_down;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    priority_queue&amp;lt;pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;, vector&amp;lt;pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt;, greater&amp;lt;pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt;&amp;gt; pq_up;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; k; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; cmd;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; cmd_int;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      cin &amp;gt;&amp;gt; cmd &amp;gt;&amp;gt; cmd_int;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (cmd == &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;#39;I&amp;#39;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;make_pair&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(cmd_int, i));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;make_pair&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(cmd_int, i));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i] = &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      } &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk3&quot;&gt;// D&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (cmd_int == &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &amp;amp;&amp;amp; !&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;]) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] = &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        } &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &amp;amp;&amp;amp; !&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;]) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] = &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;            &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &amp;amp;&amp;amp; !&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;]) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &amp;amp;&amp;amp; !&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_in&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;]) &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    string result;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() &amp;amp;&amp;amp; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()) result = &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;EMPTY&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; result = &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;to_string&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_down&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) + &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; + &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;to_string&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;pq_up&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    cout &amp;lt;&amp;lt; result &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;풀이&quot;&gt;&lt;a href=&quot;#%ED%92%80%EC%9D%B4&quot; aria-label=&quot;풀이 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;풀이&lt;/h1&gt;
+&lt;p&gt;우선순위 큐를 2개 준비한다. 하나는 큰 수가 우선순위가 높은, 즉 오름차순으로 정렬되는 큐(less&lt;int&gt;, 이게 기본값)와 다른 하나는 내림차순으로 정렬되는 큐다. &lt;code&gt;I&lt;/code&gt; 명령에는 두 큐에 모두 삽입한다. &lt;code&gt;D&lt;/code&gt; 명령시 하나의 큐에서만 삭제하게 되지만, 다른 큐에서도 이 값은 삭제되어야 한다. 하지만 즉각적으로 삭제하기엔 해당 값을 찾아서 삭제해야 하는데 비효율적이기도 하고, 기본적으로 제공되는 메소드가 없어서 불편하다. 결국 해당 값이 유효하지 않다는 표시(&lt;code&gt;is_in&lt;/code&gt;)만 하고, 각 큐의 값에 접근할 일이 있을 때마다 이게 유효한지 안 유효한지 표식을 확인하면 된다.&lt;/p&gt;
+&lt;p&gt;원래 삽입되는 값을 통해 표시하는게 더 직관적으로 생각났었다. 같은 숫자가 여러번 나올 수 있으므로 &lt;code&gt;vector&amp;#x3C;int&gt; is_in(INT_MAX)&lt;/code&gt; 이런식으로 하려고 했었다. 하지만 스택이 너무 작아서 21억 크기만큼 메모리를 미리 잡아먹는게 안되나보다. &lt;code&gt;new&lt;/code&gt;로 동적 할당해서 힙에 생성해야 하는데 벡터의 주소가 넘어오기 때문에 이용하기가 매우 불편하다. 애초에 저만한 크기가 필요하다는 것 자체가 잘못 푼게 아닌가 싶다. 그래서 여기서는 값의 유효성을 명령어의 순서로 판단한다. 순서는 중복이 생길 수 없으니 &lt;code&gt;bool&lt;/code&gt;로 표기해도 문제가 없다.&lt;/p&gt;
 &lt;style class=&quot;vscode-highlight-styles&quot;&gt;:root {
   --vscode-highlight-padding-v: 1rem;
   --vscode-highlight-padding-h: 1.5rem;
@@ -2225,6 +2653,143 @@ color: #D4D4D4;
 &lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&quot;풀이&quot;&gt;&lt;a href=&quot;#%ED%92%80%EC%9D%B4&quot; aria-label=&quot;풀이 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;풀이&lt;/h1&gt;
 &lt;p&gt;연산자 수를 줄여가며 모든 경우에 대해 연산자를 넣어본 후 최대값, 최소값을 찾는다. &lt;code&gt;operators&lt;/code&gt;를 value로 넘겨주었기 때문에 다음 함수 호출시 영향이 없도록 감소시킨 연산자 수를 다시 증가시킨다.&lt;/p&gt;
+&lt;style class=&quot;vscode-highlight-styles&quot;&gt;:root {
+  --vscode-highlight-padding-v: 1rem;
+  --vscode-highlight-padding-h: 1.5rem;
+  --vscode-highlight-padding-top: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-right: var(--vscode-highlight-padding-h);
+  --vscode-highlight-padding-bottom: var(--vscode-highlight-padding-v);
+  --vscode-highlight-padding-left: var(--vscode-highlight-padding-h);
+  --vscode-highlight-border-radius: 8px;
+
+  --vscode-highlight-line-highlighted-background-color: transparent;
+  --vscode-highlight-line-highlighted-border-width: 4px;
+  --vscode-highlight-line-highlighted-border-color: transparent;
+}
+
+.vscode-highlight {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 1rem;
+  padding-top: var(--vscode-highlight-padding-top);
+  padding-bottom: 1rem;
+  padding-bottom: var(--vscode-highlight-padding-bottom);
+  border-radius: 8px;
+  border-radius: var(--vscode-highlight-border-radius);
+  font-feature-settings: normal;
+}
+
+.vscode-highlight-code {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.vscode-highlight-line {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-left: var(--vscode-highlight-padding-left);
+  padding-right: 1.5rem;
+  padding-right: var(--vscode-highlight-padding-right);
+}
+
+.vscode-highlight-line-highlighted {
+  background-color: var(--vscode-highlight-line-highlighted-background-color);
+  box-shadow: inset var(--vscode-highlight-line-highlighted-border-width) 0 0 0 var(--vscode-highlight-line-highlighted-border-color);
+}
+.default-dark {
+background-color: #1E1E1E;
+color: #D4D4D4;
+}
+
+.default-dark .mtk1 { color: #D4D4D4; }
+.default-dark .mtk2 { color: #1E1E1E; }
+.default-dark .mtk3 { color: #6A9955; }
+.default-dark .mtk4 { color: #569CD6; }
+.default-dark .mtk5 { color: #D16969; }
+.default-dark .mtk6 { color: #D7BA7D; }
+.default-dark .mtk7 { color: #B5CEA8; }
+.default-dark .mtk8 { color: #CE9178; }
+.default-dark .mtk9 { color: #646695; }
+.default-dark .mtk10 { color: #4EC9B0; }
+.default-dark .mtk11 { color: #DCDCAA; }
+.default-dark .mtk12 { color: #9CDCFE; }
+.default-dark .mtk13 { color: #000080; }
+.default-dark .mtk14 { color: #F44747; }
+.default-dark .mtk15 { color: #C586C0; }
+.default-dark .mtk16 { color: #6796E6; }
+.default-dark .mtk17 { color: #808080; }
+.default-dark .mtki { font-style: italic; }
+.default-dark .mtkb { font-weight: bold; }
+.default-dark .mtku { text-decoration: underline; text-underline-position: under; }&lt;/style&gt;</content:encoded></item><item><title><![CDATA[[BOJ 9205] 맥주 마시면서 걸어가기]]></title><description><![CDATA[편의점, 상근이네 집, 펜타포트 락 페스티벌의 좌표가 주어진다. 상근이와 친구들이 행복하게 페스티벌에 도착할 수 있는지 구하는 프로그램을 작성하시오.]]></description><link>https://ravieeeee.github.io/posts/boj-9205/</link><guid isPermaLink="false">https://ravieeeee.github.io/posts/boj-9205/</guid><pubDate>Sun, 11 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
+&lt;p&gt;송도에 사는 상근이와 친구들은 송도에서 열리는 펜타포트 락 페스티벌에 가려고 한다. 올해는 맥주를 마시면서 걸어가기로 했다. 출발은 상근이네 집에서 하고, 맥주 한 박스를 들고 출발한다. 맥주 한 박스에는 맥주가 20개 들어있다. 목이 마르면 안되기 때문에 50미터에 한 병씩 마시려고 한다.&lt;/p&gt;
+&lt;p&gt;상근이의 집에서 페스티벌이 열리는 곳은 매우 먼 거리이다. 따라서, 맥주를 더 구매해야 할 수도 있다. 미리 인터넷으로 조사를 해보니 다행히도 맥주를 파는 편의점이 있다. 편의점에 들렸을 때, 빈 병은 버리고 새 맥주 병을 살 수 있다. 하지만, 박스에 들어있는 맥주는 20병을 넘을 수 없다.&lt;/p&gt;
+&lt;p&gt;편의점, 상근이네 집, 펜타포트 락 페스티벌의 좌표가 주어진다. 상근이와 친구들이 행복하게 페스티벌에 도착할 수 있는지 구하는 프로그램을 작성하시오. &lt;a href=&quot;https://www.acmicpc.net/problem/9205&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;baekjoon&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;코드&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
+&lt;pre class=&quot;default-dark vscode-highlight&quot; data-language=&quot;c&quot;&gt;&lt;code class=&quot;vscode-highlight-code&quot;&gt;&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;algorithm&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk15&quot;&gt;#include&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;lt;queue&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;using namespace std;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;is_connectable&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; - &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) + &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; - &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;second&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &amp;lt;= &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;string &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;bfs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  queue&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; q;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;is_visited&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(n + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_visited&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;] = &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;()) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; node = &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;front&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (node == n + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;) &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;happy&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; connected : &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[node]) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (!&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_visited&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[connected]) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(connected);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;is_visited&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[connected] = &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;sad&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; tc;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  cin &amp;gt;&amp;gt; tc;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (tc--) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; n;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    cin &amp;gt;&amp;gt; n;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    vector&amp;lt;pair&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt;&amp;gt; v;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; n + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; x, y;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      cin &amp;gt;&amp;gt; x &amp;gt;&amp;gt; y;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push_back&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;make_pair&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(x, y));&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    vector&amp;lt;&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[n + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; i = &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i &amp;lt; n + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; i++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk4&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; j = i + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j &amp;lt; n + &lt;/span&gt;&lt;span class=&quot;mtk7&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;; j++) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        &lt;/span&gt;&lt;span class=&quot;mtk15&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; (&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;is_connectable&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i], &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[j])) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[i].&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push_back&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(j);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;          &lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;graph&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;[j].&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;push_back&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(i);&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;      }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;    cout &amp;lt;&amp;lt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;bfs&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(n, graph) &amp;lt;&amp;lt; endl;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;vscode-highlight-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;풀이&quot;&gt;&lt;a href=&quot;#%ED%92%80%EC%9D%B4&quot; aria-label=&quot;풀이 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;풀이&lt;/h1&gt;
+&lt;p&gt;집, 편의점, 락페 각 점에 대해서 서로간의 거리 차이가 1000 이하라면 happy 상태로 갈 수 있게 된다. 1000 이하의 거리에 대해서만 간선을 그리면 된다. 그려진 그래프에 대해, 집을 시작점으로 해서 락페까지 방문할 수 있는지 체크한다.&lt;/p&gt;
 &lt;style class=&quot;vscode-highlight-styles&quot;&gt;:root {
   --vscode-highlight-padding-v: 1rem;
   --vscode-highlight-padding-h: 1.5rem;
