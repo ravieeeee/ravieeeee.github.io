@@ -130,10 +130,9 @@
 <ol>
 <li>벽 k개 부숴서 새로 만든 맵으로 BFS 돌기<br>
 지도 안 최대 벽 수는 n * m개, 이 n * m개의 벽에 대해서 하나씩 부수고 n * m 탐색하면? O((n * m)^2)이다.</li>
-<li>가면서 부수자!
-2-1. 각 path마다 방문 체크여부를 가져야 함
-큐에 <code>is_visited[1000][1000]</code>를 담으려니 노드가 1000개만 되어도 메모리 초과가 되었다.</li>
-<li>방문 여부를 외부에서 관리해야 한다.
+<li>가면서 부수자!<br>
+각 path마다 방문 체크여부를 가지려 했지만, 큐에 <code>is_visited[1000][1000]</code>를 담으려니 노드가 1000개만 되어도 메모리 초과가 되었다.</li>
+<li>방문 여부를 외부에서 관리해야 한다.<br>
 치킨 배달이나 <a href="https://ravieeeee.github.io/posts/leetcode-542/" target="_blank" rel="nofollow noopener noreferrer">01 Matrix</a>에서 했던 방식처럼 외부에서 depth를 관리한다. depth가 0이 아니라면 이미 방문했다는 것이고, BFS는 일찍 방문할수록 최단 거리기 때문에 다시 방문할 필요가 없다.</li>
 </ol>
 <style class="vscode-highlight-styles">:root {
