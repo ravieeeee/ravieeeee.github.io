@@ -16,9 +16,13 @@ module.exports = {
       path: '/'
     },
     {
+      label: 'Category',
+      path: '/pages/category'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
-    }
+    },
   ],
   author: {
     name: 'JuYeong',
